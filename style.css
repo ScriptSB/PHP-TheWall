@@ -1,0 +1,151 @@
+* {
+	margin: 0%;
+	padding: 0px;
+	font-family: arial, sans-serif;
+/*	outline: 1px dotted green;
+*/}
+html, body {
+	width: 100%;
+	height: 100%;
+	background: url('images/wall2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+#container {
+	width: 70%;
+	background: rgba(255,255,255,.7);
+	margin: 3% auto;
+	padding: 20px;
+}
+#logolg {
+	display: block;
+	margin: 0% auto;
+}
+#logosm {
+	display: inline-block;
+	vertical-align: bottom;
+	width: 20%;
+	height: 50px;
+	background: url('images/logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#loginWhole {
+	margin: 0% auto;
+	width: 80%;
+}
+#loginLeft, #loginRight{
+	width: 35%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px;
+}
+#loginCenter {
+	width: 10%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 5%;
+	text-align: center;
+	color: white;
+	text-shadow: 3px 3px 3px #000000;
+}
+h3 {
+	padding-bottom: 5px;
+	color: white;
+	text-shadow: 3px 3px 3px #000000;
+}
+h5 {
+	margin-left: 50%;
+	padding: 5px;
+}
+.btn {
+	padding: 5px;
+	background: #323C53;
+	color: white;
+	box-shadow: 3px 3px 3px #888888;
+	border-radius: 5px;
+	border: none;
+}
+.fields {
+	margin: 3% 0%;
+}
+.fields label {
+	width: 30%;
+	display: inline-block;
+	font-weight: bold;
+}
+#header {
+	padding-bottom: 10px;
+	border-bottom: 2px solid black;
+}
+#logoutForm, h5 {
+	display: inline-block;
+	vertical-align: bottom;
+}
+#messageBox {
+	width: 80%;
+	height: 50px;
+	display: block;
+	margin: 2% auto;
+}
+#messagesTop .btn {
+	display: block;
+	margin: 0% auto 2% auto;
+	text-align: center;
+}
+.message, .comment {
+	background: white;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #888888;
+	border: 1px solid #888888;
+	margin: 2% 0%;
+}
+.comment {
+	width: 90%;
+	margin-left: 7.5%;
+}
+.message h3, .comment h3 {
+	color: #E36C09;
+	text-shadow: 2px 2px 2px #888888;
+	display: inline-block;
+	vertical-align: bottom;
+	width: 30%;
+}
+.comment h3 {
+	color: #323C53;
+}
+.message p, .comment p {
+	display: inline-block;
+	vertical-align: bottom;
+	width: 70%;
+	text-align: right;
+}
+.message div {
+	padding: 10px;
+}
+#registerWhole {
+	width: 60%;
+	margin: 2% auto;
+	border: 1px dotted green;
+}
+#regform label{
+	border: 1px dotted green;
+	width: 35%;
+}
+#regform input {
+	width: 50%;
+}
+#regform .btn {
+	width: initial;
+}
+.warning {
+	color: red;
+}
+#bktomsg {
+	display: inline-block;
+	vertical-align: bottom;
+}
